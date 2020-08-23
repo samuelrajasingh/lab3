@@ -3,6 +3,8 @@
     <string name="check_bill">Check Bill</string>
     <string name="continue_shopping">Continue Shopping</string>
     <string name="checkout">Checkout</string>
+    <string name="your_bill">Your Bill</string>
+    <string name="_">_______________</string>
     <string-array name="array_technology">
         <item>Android</item>
         <item>Java</item>
