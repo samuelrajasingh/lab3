@@ -1,10 +1,9 @@
 
+W	java:S125;"<This block of commented-out lines of code should be removed.(è Ç38íü¦ãÁ.
 e
-java:S1192J"HDefine a constant instead of duplicating this literal "total: " 5 times.(€Ø¤Ø8Ÿñë´Á.
-X	java:S110"<This class has 9 parents which is greater than 5 authorized.(²Ú±8ÀòòØÀ.
+java:S1192K"HDefine a constant instead of duplicating this literal "total: " 5 times.(€Ø¤Ø8ã¡ŒØÁ.
+X	java:S110"<This class has 9 parents which is greater than 5 authorized.(²Ú±8ÀòòØÀ.
 k
-java:S1192?"ODefine a constant instead of duplicating this literal "Adding to cart" 5 times.(¤¯m8¶Ãå´Á.
-Z
-java:S1128">Remove this unused import 'android.content.SharedPreferences'.(íÎÉr8Á±¹ÛÀ.
+java:S1192?"ODefine a constant instead of duplicating this literal "Adding to cart" 5 times.(¤¯m8ã¡ŒØÁ.
 d
-java:S1192K"HDefine a constant instead of duplicating this literal "apple: " 5 times.(€ú+8Ÿñë´Á.
+java:S1192L"HDefine a constant instead of duplicating this literal "apple: " 5 times.(€ú+8ã¡ŒØÁ.

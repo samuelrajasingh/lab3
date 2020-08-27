@@ -2,6 +2,7 @@ package com.urk17cs290.shoppingcart;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,13 +16,21 @@ public class BillActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_bill);
     Intent i = getIntent();
-    int aCount = Integer.parseInt(Objects.requireNonNull(i.getStringExtra("A_COUNT")));
-    int oCount = Integer.parseInt(Objects.requireNonNull(i.getStringExtra("O_COUNT")));
-    int bCount = Integer.parseInt(Objects.requireNonNull(i.getStringExtra("B_COUNT")));
-    int mCount = Integer.parseInt(Objects.requireNonNull(i.getStringExtra("M_COUNT")));
-    int gCount = Integer.parseInt(Objects.requireNonNull(i.getStringExtra("G_COUNT")));
+    if (i.getStringExtra("A_COUNT") != null) Log.d("TAG", "a count not null ");
 
-    int tot = Integer.parseInt(Objects.requireNonNull(i.getStringExtra("TOTAL")));
+    int aCount = 0;
+    aCount = Integer.parseInt(i.getStringExtra("A_COUNT"));
+    int oCount=0;
+    oCount = Integer.parseInt(i.getStringExtra("O_COUNT"));
+    int bCount=0;
+    bCount = Integer.parseInt(i.getStringExtra("B_COUNT"));
+    int mCount=0;
+    mCount = Integer.parseInt(i.getStringExtra("M_COUNT"));
+    int gCount=0;
+    gCount = Integer.parseInt(Objects.requireNonNull(i.getStringExtra("G_COUNT")));
+
+    int tot=0;
+    tot = Integer.parseInt(Objects.requireNonNull(i.getStringExtra("TOTAL")));
 
     TextView apple = findViewById(R.id.apples);
     TextView orange = findViewById(R.id.oranges);
