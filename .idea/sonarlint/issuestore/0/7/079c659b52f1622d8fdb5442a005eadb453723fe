@@ -1,9 +1,11 @@
 
-W	java:S125;"<This block of commented-out lines of code should be removed.(è Ç38íü¦ãÁ.
 e
-java:S1192K"HDefine a constant instead of duplicating this literal "total: " 5 times.(€Ø¤Ø8ã¡ŒØÁ.
-X	java:S110"<This class has 9 parents which is greater than 5 authorized.(²Ú±8ÀòòØÀ.
-k
-java:S1192?"ODefine a constant instead of duplicating this literal "Adding to cart" 5 times.(¤¯m8ã¡ŒØÁ.
+java:S1192M"HDefine a constant instead of duplicating this literal "total: " 5 times.(€Ø¤Ø8éë×õÂ.
 d
-java:S1192L"HDefine a constant instead of duplicating this literal "apple: " 5 times.(€ú+8ã¡ŒØÁ.
+java:S1192N"HDefine a constant instead of duplicating this literal "apple: " 5 times.(€ú+8éë×õÂ.
+W	java:S125="<This block of commented-out lines of code should be removed.(è Ç38éë×õÂ.
+X	java:S110"<This class has 9 parents which is greater than 5 authorized.(²Ú±8ÀòòØÀ.
+Y	java:S125Ï"<This block of commented-out lines of code should be removed.(ñ±™Œ8í‰¥öÂ.
+]	java:S125;"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8í‰¥öÂ.
+k
+java:S1192A"ODefine a constant instead of duplicating this literal "Adding to cart" 5 times.(¤¯m8éë×õÂ.
