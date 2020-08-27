@@ -29,11 +29,17 @@ public class BillActivity extends AppCompatActivity {
     TextView grape = findViewById(R.id.grapes);
     TextView total = findViewById(R.id.total);
 
-    apple.setText(MessageFormat.format("APPLES ({0}) x 200 = {1}", aCount, aCount * 200));
-    orange.setText(MessageFormat.format("ORANGES ({0}) x 80 = {1}", oCount, oCount * 200));
-    banana.setText(MessageFormat.format("BANANA ({0}) x 50 = {1}", bCount, bCount * 200));
-    mango.setText(MessageFormat.format("MANGOES ({0}) x 60 = {1}", mCount, mCount * 200));
-    grape.setText(MessageFormat.format("GRAPES ({0}) x 100 = {1}", gCount, gCount * 200));
+    if(aCount > 0)
+      apple.setText(MessageFormat.format("APPLES ({0}) x 200 = {1}", aCount, aCount * 200));
+    if(oCount > 0)
+      orange.setText(MessageFormat.format("ORANGES ({0}) x 80 = {1}", oCount, oCount * 200));
+    if(bCount > 0)
+      banana.setText(MessageFormat.format("BANANA ({0}) x 50 = {1}", bCount, bCount * 200));
+    if(mCount > 0)
+      mango.setText(MessageFormat.format("MANGOES ({0}) x 60 = {1}", mCount, mCount * 200));
+    if(gCount > 0)
+      grape.setText(MessageFormat.format("GRAPES ({0}) x 100 = {1}", gCount, gCount * 200));
+
     total.setText(MessageFormat.format("Total : Rs{0}", tot));
 
 
